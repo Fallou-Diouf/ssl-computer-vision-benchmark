@@ -23,8 +23,10 @@ def load_model_and_data(task, dataset='cifar10'):
                                   pin_memory=True, shuffle=True)
 
     ckpt_pth = osp.join('results', f'{dataset}_{task}', 'model_best.pth.tar')
-    ckpt = torch.load(ckpt_pth, map_location='cpu')
-
+    #ckpt = torch.load(ckpt_pth, map_location='cpu')
+    ckpt = torch.load(ckpt_pth, map_location='cpu',weights_only=False)
+    
+    
     if task == 'context_encoder':
         model = ContextEncoder(dataset, n_classes)
     elif task == 'rotation':
