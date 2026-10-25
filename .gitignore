@@ -28,3 +28,13 @@ Compte_Rendu/*.toc
 Compte_Rendu/*.fls
 Compte_Rendu/*.fdb_latexmk
 Compte_Rendu/*.synctex.gz
+
+
+# Checkpoints et modèles entraînés
+*.pth
+*.pth.tar
+*.pt
+*.ckpt
+
+# Résultats d'entraînement générés
+results/
