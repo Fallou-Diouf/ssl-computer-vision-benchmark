@@ -1,0 +1,30 @@
+# Cache et poids lourds
+results/
+data/
+datasets/
+build/
+*.egg-info/
+*.pth
+*.pth.tar
+*.pt
+*.bin
+*.onnx
+*.zip
+*.tar.gz
+*.pkl
+
+# Python & macOS
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+.idea/
+
+# Fichiers temporaires LaTeX
+Compte_Rendu/*.aux
+Compte_Rendu/*.log
+Compte_Rendu/*.out
+Compte_Rendu/*.toc
+Compte_Rendu/*.fls
+Compte_Rendu/*.fdb_latexmk
+Compte_Rendu/*.synctex.gz
