@@ -1,6 +1,22 @@
-data
-__pycache__
-*.egg-info
-results
-*.txt
-logs/
+# Données et modèles lourds
+data/
+*.pth
+*.pt
+*.bin
+*.onnx
+
+# Cache Python & macOS
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+.idea/
+
+# Fichiers temporaires LaTeX (ne garder que le .tex et le .pdf final si souhaité)
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz

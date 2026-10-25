@@ -1,7 +1,8 @@
 import os.path as osp
 
 import matplotlib
-matplotlib.use('Agg')
+matplotlib.use('MacOSX') # <-- Remplacez 'Agg' par 'MacOSX'
+# matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
 import torch
