@@ -3,13 +3,12 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![Metal MPS](https://img.shields.io/badge/Accélération-macOS_MPS-000000?style=flat-square&logo=apple&logoColor=white)]()
-[![License](https://img.shields.io/badge/Licence-MIT-green.style=flat-square)]()
 
 Étude comparative globale des méthodes fondatrices d'apprentissage auto-supervisé (*Self-Supervised Learning*, SSL) en vision par ordinateur (**Context Encoder**, **Rotation Prediction**, **SimCLR**), incluant une **implémentation complète en PyTorch de la tâche prétexte de prédiction de position relative de patchs** ([Doersch et al., ICCV 2015](https://arxiv.org/abs/1505.05192)).
 
 ---
 
-## 🌟 Contributions Clés
+## Contributions Clés
 
 - **Implémentation de Relative Patch Location** : Conception intégrale d'une architecture siamoise à poids partagés pour prédire la position spatiale relative parmi 8 patchs voisins (Doersch et al., 2015).
 - **Protocole d'Évaluation Uniforme (*Linear Probing*)** : Évaluation standardisée sur CIFAR-10 en gelant les encodeurs pré-entraînés et en entraînant une unique couche linéaire de classification.
@@ -18,7 +17,7 @@
 
 ---
 
-## 📊 Résultats Expérimentaux
+##  Résultats Expérimentaux
 
 ### 1. Classification sur le Domaine d'Origine (CIFAR-10 Top-1)
 Évaluation par **Linear Probing** avec extraction de caractéristiques à poids gelés :
@@ -44,7 +43,7 @@
 
 ---
 
-## 📂 Arborescence du Dépôt
+##  Arborescence du Dépôt
 
 ```text
 .
@@ -60,3 +59,7 @@
 ├── Compte_Rendu/                  # Code source LaTeX du rapport scientifique de 3 pages
 ├── environment.yml                # Configuration de l'environnement Conda
 └── README.md                      # Documentation du projet
+
+```
+
+---
